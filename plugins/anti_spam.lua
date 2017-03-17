@@ -134,7 +134,7 @@ local function pre_process(msg)
           local print_name = user_print_name(msg.from):gsub("‮", "")
 		  local name = print_name:gsub("_", "")
           --Send this to that chat
-          send_large_msg("chat#id"..msg.to.id, "<i>✨کاربر [ "..name.." ]"..msg.from.id.." گولبال بن شد (spamming)✨</i>")
+          send_large_msg("chat#id"..msg.to.id, "<i>✨کاربر [ "..name.." ]"..msg.from.id.." گولبال  بن شد (spamming)✨</i>")
 		  send_large_msg("channel#id"..msg.to.id, "<i>✨کاربر [ "..name.." ]"..msg.from.id.." گولبال بن شد (spamming)✨</i>")
           local GBan_log = 'GBan_log'
 		  local GBan_log =  data[tostring(GBan_log)]
