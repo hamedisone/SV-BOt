@@ -29,7 +29,7 @@ local function logadd(msg)
 	reply_msg(msg.id,text,ok_cb,false)
 	return
 end
-
+ 
 --Function to remove log supergroup
 local function logrem(msg)
 	local data = load_data(_config.moderation.data)
